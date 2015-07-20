@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="183242" started-at="2015-07-20T04:53:36Z" finished-at="2015-07-20T04:56:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="183242" started-at="2015-07-20T04:53:36Z" finished-at="2015-07-20T04:56:40Z">
+      <class name="pccraft.kayak.testsuite.testscenario1.EndToEndFlow">
+        <test-method status="PASS" signature="beforeMethod([Ljava.lang.Object;)[pri:0, instance:pccraft.kayak.testsuite.testscenario1.EndToEndFlow@109b415c]" name="beforeMethod" is-config="true" duration-ms="13327" started-at="2015-07-19T21:53:37Z" finished-at="2015-07-19T21:53:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4c718764]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="EndToEndFlowTest(java.util.List, java.lang.String, java.lang.String)[pri:0, instance:pccraft.kayak.testsuite.testscenario1.EndToEndFlow@109b415c]" name="EndToEndFlowTest" duration-ms="169242" started-at="2015-07-19T21:53:50Z" data-provider="TestDataXLS" finished-at="2015-07-19T21:56:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[pccraft.kayak.test.data.TestData@520ab7b2, pccraft.kayak.test.data.TestData@3da23132, pccraft.kayak.test.data.TestData@634be93a]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://kayak.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndToEndFlowTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:pccraft.kayak.testsuite.testscenario1.EndToEndFlow@109b415c]" name="afterMethod" is-config="true" duration-ms="489" started-at="2015-07-19T21:56:39Z" finished-at="2015-07-19T21:56:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- pccraft.kayak.testsuite.testscenario1.EndToEndFlow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

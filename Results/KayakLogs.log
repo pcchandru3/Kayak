@@ -1,0 +1,71 @@
+2015-07-19 18:24:58 INFO  rootLogger:41 - Test log 
+2015-07-19 18:34:07 INFO  rootLogger:41 - =============== Start : Test Iteration 1============== 
+2015-07-19 18:35:54 INFO  rootLogger:41 - =============== Start : Test Iteration 1============== 
+2015-07-19 18:36:47 INFO  rootLogger:57 - Origin matches in search results page
+2015-07-19 18:36:49 INFO  rootLogger:60 - Destination matches in search results page
+2015-07-19 18:37:07 INFO  rootLogger:68 - =============== End : Test Iteration 1============== 
+
+2015-07-19 18:39:58 INFO  rootLogger:41 - =============== Start : Test Iteration 1============== 
+2015-07-19 18:41:17 INFO  rootLogger:41 - =============== Start : Test Iteration 1============== 
+2015-07-19 18:42:01 INFO  rootLogger:57 - Origin matches in search results page
+2015-07-19 18:43:58 INFO  rootLogger:41 - =============== Start : Test Iteration 1============== 
+2015-07-19 18:44:41 INFO  rootLogger:57 - Origin matches in search results page
+2015-07-19 18:44:41 INFO  rootLogger:60 - Destination matches in search results page
+2015-07-19 18:44:53 INFO  rootLogger:68 - =============== End : Test Iteration 1============== 
+2015-07-19 21:28:19 INFO  rootLogger:44 - =============== Start : Test Iteration 0============== 
+2015-07-19 21:36:25 INFO  rootLogger:87 - Browser has been launched successfully !!!
+2015-07-19 21:36:25 INFO  rootLogger:45 - =============== Start : Test Iteration 1============== 
+2015-07-19 21:37:21 INFO  rootLogger:87 - Browser has been launched successfully !!!
+2015-07-19 21:37:21 INFO  rootLogger:45 - =============== Start : Test Iteration 1============== 
+2015-07-19 21:37:21 INFO  rootLogger:54 - Search for Flights
+2015-07-19 21:39:49 INFO  rootLogger:87 - Browser has been launched successfully !!!
+2015-07-19 21:39:49 INFO  rootLogger:45 - =============== Start : Test Iteration 1============== 
+2015-07-19 21:39:49 INFO  rootLogger:54 - Search for Flights
+2015-07-19 21:40:35 INFO  rootLogger:60 - Origin matches in search results page
+2015-07-19 21:40:35 INFO  rootLogger:66 - Select the Iteinery
+2015-07-19 21:40:43 INFO  rootLogger:69 - =============== End : Test Iteration 1============== 
+2015-07-19 21:40:43 INFO  rootLogger:45 - =============== Start : Test Iteration 2============== 
+2015-07-19 21:40:43 INFO  rootLogger:54 - Search for Flights
+2015-07-19 21:41:46 INFO  rootLogger:60 - Origin matches in search results page
+2015-07-19 21:41:46 INFO  rootLogger:66 - Select the Iteinery
+2015-07-19 21:41:47 INFO  rootLogger:69 - =============== End : Test Iteration 2============== 
+2015-07-19 21:41:47 INFO  rootLogger:45 - =============== Start : Test Iteration 3============== 
+2015-07-19 21:41:47 INFO  rootLogger:54 - Search for Flights
+2015-07-19 21:42:46 INFO  rootLogger:60 - Origin matches in search results page
+2015-07-19 21:42:47 INFO  rootLogger:66 - Select the Iteinery
+2015-07-19 21:42:47 INFO  rootLogger:69 - =============== End : Test Iteration 3============== 
+2015-07-19 21:44:37 INFO  rootLogger:87 - Browser has been launched successfully !!!
+2015-07-19 21:44:44 INFO  rootLogger:45 - =============== Start : Test Iteration 1============== 
+2015-07-19 21:45:23 INFO  rootLogger:54 - Search for Flights
+2015-07-19 21:46:08 INFO  rootLogger:60 - Origin matches in search results page
+2015-07-19 21:46:09 INFO  rootLogger:66 - Select the Iteinery
+2015-07-19 21:46:19 INFO  rootLogger:69 - =============== End : Test Iteration 1============== 
+2015-07-19 21:46:19 INFO  rootLogger:45 - =============== Start : Test Iteration 2============== 
+2015-07-19 21:49:45 INFO  rootLogger:87 - Browser has been launched successfully !!!
+2015-07-19 21:49:47 INFO  rootLogger:45 - =============== Start : Test Iteration 1============== 
+2015-07-19 21:50:36 INFO  rootLogger:54 - Search for Flights
+2015-07-19 21:51:21 INFO  rootLogger:60 - Origin matches in search results page
+2015-07-19 21:51:22 INFO  rootLogger:63 - Destination matches in search results page
+2015-07-19 21:51:22 INFO  rootLogger:66 - Select the Iteinery
+2015-07-19 21:51:33 INFO  rootLogger:69 - =============== End : Test Iteration 1============== 
+2015-07-19 21:51:33 INFO  rootLogger:45 - =============== Start : Test Iteration 2============== 
+2015-07-19 21:53:50 INFO  rootLogger:87 - Browser has been launched successfully !!!
+2015-07-19 21:53:50 INFO  rootLogger:42 - ************************************ Test Scenario : EndToEndFlow ***************************************************************
+2015-07-19 21:53:50 INFO  rootLogger:47 - =============== Start : Test Iteration 1============== 
+2015-07-19 21:53:50 INFO  rootLogger:56 - Search for Flights
+2015-07-19 21:54:35 INFO  rootLogger:62 - Origin matches in search results page
+2015-07-19 21:54:36 INFO  rootLogger:65 - Destination matches in search results page
+2015-07-19 21:54:36 INFO  rootLogger:68 - Select the Iteinery
+2015-07-19 21:54:42 INFO  rootLogger:71 - =============== End : Test Iteration 1============== 
+2015-07-19 21:54:42 INFO  rootLogger:47 - =============== Start : Test Iteration 2============== 
+2015-07-19 21:54:42 INFO  rootLogger:56 - Search for Flights
+2015-07-19 21:55:44 INFO  rootLogger:62 - Origin matches in search results page
+2015-07-19 21:55:45 INFO  rootLogger:65 - Destination matches in search results page
+2015-07-19 21:55:45 INFO  rootLogger:68 - Select the Iteinery
+2015-07-19 21:55:45 INFO  rootLogger:71 - =============== End : Test Iteration 2============== 
+2015-07-19 21:55:45 INFO  rootLogger:47 - =============== Start : Test Iteration 3============== 
+2015-07-19 21:55:45 INFO  rootLogger:56 - Search for Flights
+2015-07-19 21:56:38 INFO  rootLogger:62 - Origin matches in search results page
+2015-07-19 21:56:38 INFO  rootLogger:68 - Select the Iteinery
+2015-07-19 21:56:39 INFO  rootLogger:71 - =============== End : Test Iteration 3============== 
+2015-07-19 21:56:39 INFO  rootLogger:78 - ************************************************************************************************************************************
