@@ -2,6 +2,7 @@ package pccraft.kayak.common.framework;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,11 +28,16 @@ public class BaseTest {
 	
 	
 	
-	
+	public @interface TestDataXLS
+	{
+		String fileName();
+		String sheetName();
+
+	}
 	
 	
 	@DataProvider(name="TestDataXLS")
-	public Object[][] testDataProvider() {
+	public Object[][] testDataProvider(Method method) {
 		System.out.println("In side data provider");
 		List<String> l = new ArrayList<String>();
 		l.add("One");
@@ -47,9 +53,10 @@ public class BaseTest {
 		
 		
 		
+		TestDataXLS xlsFileSheet = method.getAnnotation(TestDataXLS.class);
 		
 		
-		List<TestData> testData = XLSData.readTestData("/Users/cpanag/01WorkingFolder/My-GitHub/Kayak/kayak/src/test/resources/TestDataInput.xls", "TestExecution");
+		List<TestData> testData = XLSData.readTestData(xlsFileSheet.fileName(), xlsFileSheet.sheetName());
 		
 		Object[][] o = {{testData, "Firefox", "http://kayak.com/"}};
 		

@@ -35,6 +35,7 @@ public class EndToEndFlow extends BaseTest{
 	}
 	
 	@Test(dataProvider = "TestDataXLS")
+	@TestDataXLS(fileName = "src/test/resources/TestDataInput.xls", sheetName="TestExecution")
 	public void EndToEndFlowTest(List<TestData> lstTestData, String sBrowser, String sSite ) {
 		
 		int count = 0;
@@ -75,7 +76,7 @@ public class EndToEndFlow extends BaseTest{
 		}
 		
 		
-		logger.info("************************************************************************************************************************************");
+		logger.info("***************************************************************************************************************");
 		
 	}
 	
